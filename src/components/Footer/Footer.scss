@@ -1,0 +1,44 @@
+@import '../../variables.scss';
+
+.footer {
+  background-color: $footer-background-color;
+  padding-top: 10px;
+  color: $nav-link-footer-color;
+
+  h5 {
+    color: $black;
+  }
+
+  .contact-container {
+    .row {
+      margin: 5px 0;
+
+      .contact-link {
+        padding-left: 6px;
+        margin-bottom: 14px;
+      }
+    }
+  }
+
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: $footer-background-color !important;
+    .navbar-nav {
+      margin: $align-middle;
+      .nav-link {
+        color: $nav-link-footer-color;
+        text-transform: uppercase;
+        font-weight: $font-weight-400;
+        font-size: 13px;
+        &:hover {
+          color: $nav-link-active-color;
+        }
+      }
+    }
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+}
