@@ -1,0 +1,114 @@
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faEnvelopeOpen,
+  faPhone,
+  faMapMarker,
+} from '@fortawesome/free-solid-svg-icons';
+import './Footer.scss';
+
+export default function Footer() {
+  return (
+    <footer className="footer fixed-bottom">
+      <Container>
+        <Row>
+          <Col>
+            <Navbar>
+              <Nav>
+                <h5>Links</h5>
+              </Nav>
+            </Navbar>
+            <Navbar>
+              <Nav>
+                <Nav.Link href="#home">Home</Nav.Link>
+              </Nav>
+            </Navbar>
+            <Navbar>
+              <Nav>
+                <Nav.Link href="#about">About</Nav.Link>
+              </Nav>
+            </Navbar>
+            <Navbar>
+              <Nav>
+                <Nav.Link href="#events">Events</Nav.Link>
+              </Nav>
+            </Navbar>
+            <Navbar>
+              <Nav>
+                <Nav.Link href="#gallery">Gallery</Nav.Link>
+              </Nav>
+            </Navbar>
+            <Navbar>
+              <Nav>
+                <Nav.Link href="#contact">Contact</Nav.Link>
+              </Nav>
+            </Navbar>
+          </Col>
+          <Col>
+            <Container className="contact-container">
+              <Row>
+                <Col>
+                  <h5>Contact</h5>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <FontAwesomeIcon icon={faEnvelopeOpen} />
+                  <a className="contact-link" href="mail:info@stpeterstvm.org">
+                    info@stpeterstvm.org
+                  </a>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <FontAwesomeIcon icon={faPhone} />
+                  <a className="contact-link" href="tel:04712330933">
+                    0471 233 0933
+                  </a>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <FontAwesomeIcon icon={faMapMarker} />
+                  <span className="contact-link">
+                    Punnen Rd, Statue, Palayam, Thiruvananthapuram, Kerala
+                    695039
+                  </span>
+                </Col>
+              </Row>
+            </Container>
+          </Col>
+          <Col>
+            <Container>
+              <Row>
+                <Col>
+                  <h5>Contribute</h5>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <div className="text-justify">
+                    If you want to contribute to this open-source web project,
+                    head on over to our{' '}
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/jijojames18/stpeterstvm.org"
+                    >
+                      Github repository
+                    </a>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
+}
