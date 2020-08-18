@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+.home-content-text {
+  background-color: $home-content-text-background-color;
+  margin: 10px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  p {
+    text-align: justify;
+  }
+
+  .title-row {
+    margin-bottom: 50px;
+  }
+
+  .section-title {
+    color: $white;
+    font-size: $section-title-font-size;
+    font-weight: $font-weight-600;
+  }
+
+  .home-content-text-row {
+    padding: 0px 24px;
+    color: $home-content-text-color;
+  }
+}
+
+.home-content-timing {
+  .home-content-timing-title {
+    margin: 8px 0;
+  }
+
+  .home-content-timing-row {
+    margin-left: 0px;
+  }
+}
