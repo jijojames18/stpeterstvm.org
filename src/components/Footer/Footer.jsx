@@ -14,7 +14,7 @@ import './Footer.scss';
 
 export default function Footer() {
   return (
-    <footer className="footer fixed-bottom">
+    <footer className="footer">
       <Container>
         <Row>
           <Col>
