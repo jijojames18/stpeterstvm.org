@@ -8,7 +8,7 @@ import logo from './logo.jpg';
 export default function Header() {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img
           src={logo}
           width="120"
@@ -18,7 +18,7 @@ export default function Header() {
         />
       </Navbar.Brand>
       <Nav className="app-name">
-        <Nav.Link href="#home">
+        <Nav.Link href="/">
           St Peter's Jacobite Syrian Orthodox Simhasana Cathedral
         </Nav.Link>
       </Nav>
@@ -27,11 +27,9 @@ export default function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto"></Nav>
         <Nav>
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#events">Events</Nav.Link>
-          <Nav.Link href="#gallery">Gallery</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

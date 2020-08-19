@@ -25,27 +25,17 @@ export default function Footer() {
             </Navbar>
             <Navbar>
               <Nav>
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
               </Nav>
             </Navbar>
             <Navbar>
               <Nav>
-                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
               </Nav>
             </Navbar>
             <Navbar>
               <Nav>
-                <Nav.Link href="#events">Events</Nav.Link>
-              </Nav>
-            </Navbar>
-            <Navbar>
-              <Nav>
-                <Nav.Link href="#gallery">Gallery</Nav.Link>
-              </Nav>
-            </Navbar>
-            <Navbar>
-              <Nav>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar>
           </Col>
