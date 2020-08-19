@@ -11,7 +11,7 @@ export default function Header() {
       <Container className="about">
         <Row className="justify-content-md-center title-row">
           <Col md="12">
-            <h5 class="section-title">HISTORY</h5>
+            <h5 className="section-title">HISTORY</h5>
           </Col>
         </Row>
         <Row>
@@ -81,7 +81,7 @@ export default function Header() {
         </Row>
         <Row className="justify-content-md-center title-row">
           <Col md="12">
-            <h5 class="section-title">YOUTH ASSOSCIATION</h5>
+            <h5 className="section-title">YOUTH ASSOSCIATION</h5>
           </Col>
         </Row>
         <Row>
@@ -100,7 +100,7 @@ export default function Header() {
         </Row>
         <Row className="justify-content-md-center">
           <Col md="12">
-            <h6 class="section-title">ACTIVITIES</h6>
+            <h6 className="section-title">ACTIVITIES</h6>
           </Col>
         </Row>
         <Row>
@@ -118,7 +118,7 @@ export default function Header() {
         </Row>
         <Row className="justify-content-md-center">
           <Col md="12">
-            <h6 class="section-title">CHARITY</h6>
+            <h6 className="section-title">CHARITY</h6>
           </Col>
         </Row>
         <Row>
@@ -138,7 +138,7 @@ export default function Header() {
         </Row>
         <Row className="justify-content-md-center">
           <Col md="12">
-            <h6 class="section-title">SELECTION OF OFFICE BEARERS</h6>
+            <h6 className="section-title">SELECTION OF OFFICE BEARERS</h6>
           </Col>
         </Row>
         <Row>
@@ -155,7 +155,7 @@ export default function Header() {
 
         <Row className="justify-content-md-center title-row">
           <Col md="12">
-            <h5 class="section-title">SUNDAY SCHOOL</h5>
+            <h5 className="section-title">SUNDAY SCHOOL</h5>
           </Col>
         </Row>
         <Row>
@@ -194,7 +194,7 @@ export default function Header() {
 
         <Row className="justify-content-md-center title-row">
           <Col md="12">
-            <h5 class="section-title">St Peters Charitable Society</h5>
+            <h5 className="section-title">St Peters Charitable Society</h5>
           </Col>
         </Row>
         <Row>
@@ -213,7 +213,9 @@ export default function Header() {
 
         <Row className="justify-content-md-center title-row">
           <Col md="12">
-            <h5 class="section-title">School for Mentally Retarded Children</h5>
+            <h5 className="section-title">
+              School for Mentally Retarded Children
+            </h5>
           </Col>
         </Row>
         <Row>

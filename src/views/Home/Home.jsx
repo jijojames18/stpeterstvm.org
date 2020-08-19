@@ -22,7 +22,7 @@ export default function Header() {
       <Container fluid className="home-content-text">
         <Row className="justify-content-md-center title-row">
           <Col md="auto" lg="auto" xl="auto" sm="auto" xs="auto">
-            <h2 class="section-title">Our Parish</h2>
+            <h2 className="section-title">Our Parish</h2>
           </Col>
         </Row>
         <Row className="home-content-text-row">
@@ -62,7 +62,7 @@ export default function Header() {
       <Container className="home-content-timing">
         <Row className="justify-content-md-center title-row">
           <Col md="auto" lg="auto" xl="auto" sm="auto" xs="auto">
-            <h2 class="section-title">Prayer Timings</h2>
+            <h2 className="section-title">Prayer Timings</h2>
           </Col>
         </Row>
         <Row className="justify-content-md-center home-content-timing-title">
@@ -97,9 +97,7 @@ export default function Header() {
         </Row>
         <Row className="justify-content-md-center home-content-timing-row">
           <Col md="auto" lg="auto" xl="auto" sm="auto" xs="auto">
-            <p>
-              <p>Holy Qurbono : 08:00 AM</p>
-            </p>
+            <p>Holy Qurbono : 08:00 AM</p>
           </Col>
         </Row>
       </Container>
