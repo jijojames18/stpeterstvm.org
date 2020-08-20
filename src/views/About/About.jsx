@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 import './About.scss';
 
-export default function Header() {
+export default function About() {
   return (
     <React.Fragment>
       <Container className="about">
