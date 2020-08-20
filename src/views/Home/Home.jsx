@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import './Home.scss';
 import chruch from './church.png';
 
-export default function Header() {
+export default function Home() {
   return (
     <React.Fragment>
       <Container>
