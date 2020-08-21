@@ -8,9 +8,27 @@
     margin-bottom: 14px;
   }
 
-  .contact-form {
+  .contact-form-header {
     margin-top: 50px;
     padding-top: 14px;
     border-top: 1px solid $border-color;
+  }
+
+  .contact-form {
+    margin-top: 14px;
+
+    .form-label {
+      color: $home-content-text-color;
+    }
+
+    input,
+    textarea {
+      background-color: $input-background-color;
+    }
+
+    .submit-button {
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
   }
 }
