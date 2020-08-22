@@ -1,4 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Code repository for website [stpeterstvm.org](https://stpeterstvm.org).  
+The website is currently deployed at [heroku](http://desolate-atoll-86988.herokuapp.com/)  
+
+## Tech stack
+The project is build using react and is bootstrapped from [Create React App](https://github.com/facebook/create-react-app).  
+The project heavily utilizes React Bootstrap components for building the User Interface.  
+
+## External Dependencies
+1. Google Maps
+2. Google Recaptcha.
+3. Mail Sending server (In process of development)
+
+## Environment variables
+The application expects a number of variables with the appropriate values to be present inside the environment in which it is running.
+* **REACT_APP_GOOGLE_MAPS_API_KEY** : The google maps api key used for showing the location inside the contact page. The api key can be obtained from [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview)
+* **REACT_APP_RECAPTCHA_SITE_KEY** : The key for Google Recaptcha library used for showing the captcha inside the contact form. The api key can be obtained from [Google reCaptcha website](https://www.google.com/recaptcha/admin/site)
+* **REACT_APP_POST_FEEDBACK_ENDPOINT** : The REST endpoint url to send the contact data when user submits the form.
+
+## Development flow
+1. Contact Admin to add you as a member or fork the repository.
+2. Clone the repository to your local machine.
+3. Copy env.example as .env.
+4. Replace the keys inside the .env with the correct values.
+5. Run `npm install` and `npm start` to setup the local environment.
+6. Make the required fix and test the changes.
+7. Raise a Pull Request to the master branch.
 
 ## Available Scripts
 
@@ -27,42 +52,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Documentation
+* [React Bootstrap](https://react-bootstrap.github.io/)
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)  
+* [Google ReCaptcha](https://developers.google.com/recaptcha/intro)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### License
+[MIT](https://github.com/jijojames18/stpeterstvm.org/blob/master/LICENSE)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
