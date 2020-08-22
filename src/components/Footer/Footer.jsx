@@ -73,30 +73,6 @@ export default function Footer() {
               </Row>
             </Container>
           </Col>
-          <Col>
-            <Container>
-              <Row>
-                <Col>
-                  <h5>Contribute</h5>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <div className="text-justify">
-                    If you want to contribute to this open-source web project,
-                    head on over to our{' '}
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://github.com/jijojames18/stpeterstvm.org"
-                    >
-                      Github repository
-                    </a>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </Col>
         </Row>
       </Container>
     </footer>

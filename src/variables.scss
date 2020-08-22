@@ -1,15 +1,18 @@
 $white: #fff;
 $black: #000;
 
-$nav-title-color: #999;
-$nav-link-color: #31373a;
-$nav-link-active-color: #00a8d6;
-$nav-link-footer-color: #aaaa;
-$footer-background-color: #edf6fc;
-$home-content-text-background-color: #31373a;
-$home-content-text-color: #7777;
-$border-color: #dce4e6;
-$input-background-color: #f9f9f9;
+$heading-color: #4f565f;
+$nav-title-color: #4242bd;
+$nav-link-color: #4f565f;
+$nav-link-active-color: #4242bd;
+$nav-link-footer-color: $white;
+$footer-text-color: #dce4e6;
+$footer-background-color: #404040;
+$home-content-text-background-color: #404040;
+$home-content-text-color: #dcdada;
+$border-color: #4f565f;
+$input-background-color: #fff;
+$input-label-color: #4f565f;
 
 $font-weight-100: 100;
 $font-weight-200: 200;
@@ -17,7 +20,7 @@ $font-weight-400: 400;
 $font-weight-600: 600;
 $font-weight-700: 700;
 
-$nav-title-font-size: 20px;
+$nav-title-font-size: 24px;
 $section-title-font-size: 30px;
 
 $align-middle: 0 auto;
