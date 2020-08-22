@@ -6,7 +6,7 @@
   color: $nav-link-footer-color;
 
   h5 {
-    color: $black;
+    color: $footer-text-color;
   }
 
   .contact-container {
@@ -32,10 +32,14 @@
         font-weight: $font-weight-400;
         font-size: 13px;
         &:hover {
-          color: $nav-link-active-color;
+          text-decoration: underline;
         }
       }
     }
+  }
+
+  a {
+    color: $nav-link-footer-color;
   }
 
   .text-justify {
