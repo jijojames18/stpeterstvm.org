@@ -11,7 +11,7 @@ export default function Header() {
       <Navbar.Brand href="/">
         <img
           src={logo}
-          width="120"
+          width="117"
           height="120"
           className="d-inline-block align-top"
           alt="St Peter's Jacobite Syrian Orthodox Simhasana Cathedral"
