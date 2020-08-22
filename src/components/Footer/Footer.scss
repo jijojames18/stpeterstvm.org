@@ -10,9 +10,8 @@
   }
 
   .contact-container {
-    .row {
-      margin: 5px 0;
-
+    &.nav-items {
+      text-align: center;
       .nav-link {
         color: $nav-link-footer-color;
         text-transform: uppercase;
@@ -22,28 +21,17 @@
           text-decoration: underline;
         }
       }
+    }
 
+    &.contact {
       .contact-link {
         padding-left: 6px;
         margin-bottom: 14px;
       }
     }
 
-    text-align: center;
-
     &.social-links {
       text-align: center;
-    }
-
-    &.nav-items {
-      text-align: center;
-
-      .row {
-        height: 25px;
-      }
-    }
-
-    &.social-links {
       .social-icons {
         display: inline-flex;
         justify-content: center;
@@ -55,6 +43,12 @@
         }
       }
     }
+
+    .row {
+      margin: 5px 0;
+    }
+
+    text-align: center;
   }
 
   a {

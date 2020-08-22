@@ -78,7 +78,7 @@ export default function Footer() {
             </Container>
           </Col>
           <Col>
-            <Container className="contact-container">
+            <Container className="contact-container contact">
               <Row>
                 <Col>
                   <h5>Contact</h5>
