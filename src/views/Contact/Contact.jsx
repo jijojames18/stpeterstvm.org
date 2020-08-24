@@ -63,7 +63,12 @@ export default function Contact() {
               formData: { ...userDetails },
               captcha,
               site: 'stpeterstvm.org',
-            })
+            }),
+            {
+              headers: {
+                'content-type': 'application/json',
+              },
+            }
           )
           .then(function () {
             setAlert({
