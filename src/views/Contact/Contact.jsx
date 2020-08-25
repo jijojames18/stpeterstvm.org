@@ -77,6 +77,13 @@ export default function Contact() {
               message: successfulAlertMessage,
               variant: 'info',
             });
+            setUserDetails({
+              name: '',
+              email: '',
+              subject: '',
+              comments: '',
+            });
+            setValidated(false);
           })
           .catch(function () {
             setAlert({
