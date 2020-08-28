@@ -8,7 +8,7 @@ The project heavily utilizes React Bootstrap components for building the User In
 ## External Dependencies
 1. Google Maps
 2. Google Recaptcha.
-3. Mail Sending server (In process of development)
+3. Mail Sending server  
 
 ## Environment variables
 The application expects a number of variables with the appropriate values to be present inside the environment in which it is running.
