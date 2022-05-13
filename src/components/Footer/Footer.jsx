@@ -53,7 +53,7 @@ export default function Footer() {
               <Row className="social-icons">
                 <Col>
                   <a
-                    href="https://m.facebook.com/profile.php?id=394517177352666"
+                    href="https://facebook.com/stpeterstvpm"
                     target="_blank"
                     title="facebook"
                     rel="noopener noreferrer"
