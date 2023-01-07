@@ -1,5 +1,4 @@
 Code repository for website [stpeterstvm.org](https://stpeterstvm.org).  
-The website is currently deployed at [heroku](https://desolate-atoll-86988.herokuapp.com/)  
 
 ## Tech stack
 The project is build using react and is bootstrapped from [Create React App](https://github.com/facebook/create-react-app).  
